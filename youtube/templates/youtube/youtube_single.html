@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Youtube Downloader
+{% endblock %}
+
+
+{% block content %}
+    <main>
+        <div class="single-card">
+            <h3 class="single-card-title">
+                Download Youtube Videos
+            </h3>
+            <h4 class="single-card-disc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptates, totam exercitationem laborum est placeat quae! Corporis eius, vero amet beatae incidunt repellat dolor similique maxime veritatis, nam explicabo sunt.
+            </h4>
+            <form class="single-form" action="{% url 'video_page' %}" method="get">
+                <input type="text" name="single_link">
+                <button type="submit" name="submit">Submit</button>
+            </form>
+
+        </div>
+        {% block list %}
+
+        {% endblock %}
+    </main>
+{% endblock %}

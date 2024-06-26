@@ -1,0 +1,15 @@
+{% extends "youtube/youtube_single.html" %}
+
+{% block list %}
+    
+    <div class="single-page-card">
+        <div class="single-page-pane image">
+            <img class="yt-tbnail" src="{{ yt.thumbnail_url }}" alt="video thumbnail">
+        </div>
+        <div class="single-page-pane body">
+            <h2 class="yt-title" class="single-page-title"> {{ yt.title }} </h2>
+            <a class="yt-download" href="{% url 'download' theid=yt.video_id %}">Download</a>
+        </div>
+    </div>
+    
+{% endblock %}

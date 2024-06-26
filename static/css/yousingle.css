@@ -1,0 +1,71 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: whitesmoke;
+}
+.single-card {
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(251, 136, 136, 0.358);
+    max-width: 70%;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.single-card-title {
+    font-size: 2.5rem;
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.single-card-disc {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.694);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.single-form {
+    display: flex;
+    gap: .5rem;
+}
+.single-form>div {
+    display: flex;
+    flex-grow: 1;
+
+}
+.single-form label {
+    display: none;
+}
+.single-form input {
+    border-radius: 10px;
+    padding: .5rem;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: solid 2px blue;
+    font-size: 1.3rem;
+    flex-grow: 1;
+}
+.single-form button {
+    padding: .5rem;
+    background-color: blue;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none;
+    border: solid 2px blue;
+}
