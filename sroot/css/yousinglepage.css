@@ -1,0 +1,48 @@
+
+.single-page-card {
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(251, 136, 136, 0.358);
+    max-width: 70%;
+    padding: 1.5rem 1rem;
+    display: flex;
+    gap: .5rem;
+}
+
+.single-page-pane {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-page-pane .yt-tbnail {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.single-page-pane .yt-title {
+    text-transform: uppercase;
+    color: blue;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.single-page-pane .yt-download {
+    padding: .5rem 1rem;
+    background-color: blue;
+    outline: none;
+    border: solid 2px blue;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+}
+.single-page-pane .yt-download:hover {
+    background-color: rgba(137, 43, 226, 0.852);
+    border: solid 2px rgba(137, 43, 226, 0.852);
+}
