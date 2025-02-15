@@ -1,6 +1,6 @@
 {
     "builds": [{
-        "src": "ewProject/wsgi.py",
+        "src": "newProject/wsgi.py",
         "use": "@vercel/python", 
         "config": {
             "maxLambdaSize": "15mb",
